@@ -1,0 +1,85 @@
+body {
+  position: relative;
+  background: url('../images/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  left: 25%;
+  
+}
+
+#container {
+  position: relative;
+  width : 450px;
+  background-color:white;
+  border-radius: 20px;
+  height: 650px;
+  
+}
+
+#message {
+  text-align: center;
+  width : 200px;
+  position: relative;
+  left: 26%;
+
+
+}
+
+#pricing{
+  display: flex;
+  padding: 20px 20px 20px 20px;
+  background: hsl(225, 18%, 83%);
+  width: 200px;
+  height: 20px;
+  position: relative;
+  left: 23%;
+  border-radius: 10px;
+}
+
+#pricing-text{
+  padding: 10px 10px 10px 10px;
+  height: 50px;
+
+}
+
+#pricing img{
+  position: relative;
+  border-radius: 50%;
+  width: 35px;
+  height: 50px;
+  top: 20%;
+  
+}
+
+
+
+#payment{
+  position: relative;
+}
+
+#payment button{
+  position: relative;
+  width : 250px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: hsl(245, 75%, 52%);
+  left: 20%;
+  color: white;
+  margin: 10px 10px 10px 10px;
+}
+
+#Cancel-Order{
+  position: relative;
+}
+
+#Cancel-Order a {
+  position: relative;
+  width : 250px;
+  height: 50px;
+  background-color: white;
+  left: 35%;
+  color: hsl(223, 47%, 23%);
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  
+}
